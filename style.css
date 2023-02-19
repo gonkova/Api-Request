@@ -1,0 +1,67 @@
+h3 {
+    color: green
+}
+
+.container {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#t {
+    color: green;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.container-left {
+    width: 50%;
+}
+
+.category {
+    color: green;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+#category {
+    color: green;
+}
+
+#select {
+    padding: 0.5rem;
+}
+
+.price {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.price-title {
+    font-size: 1.1rem;
+    color: green;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+#priceFrom,
+#priceTo {
+    width: 80%;
+    padding: 0.5rem;
+}
+
+#btn {
+    padding: 0.1rem 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.container-right {
+    margin-top: 2rem;
+}

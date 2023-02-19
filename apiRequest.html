@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> API REQUEST</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-left">
+            <h3>Filters:</h3>
+            <div class="container-category">
+                <label class="category">Category:</label>
+                <select name="category" id="select" >
+                    <option name="category" value="cat1">Category one</option>
+                    <option name="category" value="cat2">Category two</option>
+                    <option name="category" value="cat3">Category three</option>
+                </select>
+            </div>
+            <div class="price-title">Price:</div>
+            <div class="price">
+                <div>
+                    <label for="priceFrom">From:</label></br>
+                    <input type="number" id="priceFrom" name="priceFrom">
+                </div>
+                <div>
+                    <label for="priceFrom">To:</label></br>
+                    <input type="number" id="priceTo" name="priceTo">
+                </div>
+            </div>
+            <div>
+                <button id="btn" onclick="filter()">Filter</button>
+            </div>
+        </div>
+        <div class="container-right">
+            <div id="container">
+                <i class="fa fa-spinner fa-spin"></i>
+                <div class="result"></div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+            <script src="/main.js"></script>
+</body>
+
+</html>
